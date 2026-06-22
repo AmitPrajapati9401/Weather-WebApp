@@ -1,0 +1,11 @@
+/**
+ * Basic typography style for copy text
+ *
+ * @format
+ */
+ @use '../abstracts/variables';
+
+body {
+  color: variables.$text-color;
+  font: normal 125% / 1.4 variables.$text-font-stack;
+}
